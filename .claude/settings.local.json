@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(gh auth *)",
-      "Bash(gh repo *)"
+      "Bash(gh repo *)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --no-git --skip-install --import-alias '@/*' --app)",
+      "Bash(npm --version)"
     ]
   }
 }
